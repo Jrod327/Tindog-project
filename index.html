@@ -35,8 +35,8 @@
 					<button
 						class="navbar-toggler"
 						type="button"
-						data-toggle="collapse"
-						data-target="#navbarTogglerDemo02"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo02"
 						aria-controls="navbarTogglerDemo02"
 						aria-expanded="false"
 						aria-label="Toggle navigation">
@@ -83,17 +83,17 @@
 		<section id="features">
 			<div class="row">
 				<div class="col-lg-4">
-					<i class="fa-solid fa-circle-check fa-5x"></i>
+					<i class="icon fa-solid fa-circle-check fa-5x"></i>
 					<h3>Easy to use.</h3>
 					<p>So easy to use, even your dog could do it.</p>
 				</div>
 				<div class="col-lg-4">
-					<i class="fa-solid fa-bullseye fa-5x"></i>
+					<i class="icon fa-solid fa-bullseye fa-5x"></i>
 					<h3>Elite Clientele</h3>
 					<p>We have all the dogs, the greatest dogs.</p>
 				</div>
 				<div class="col-lg-4">
-					<i class="fa-solid fa-heart fa-5x"></i>
+					<i class="icon fa-solid fa-heart fa-5x"></i>
 					<h3>Guaranteed to work.</h3>
 					<p>Find the love of your dog's life or your money back.</p>
 				</div>
@@ -181,7 +181,7 @@
 							<p>10 Messages Per Day</p>
 							<p class="p-spacing">Unlimited App Usage</p>
 							<div class="d-grid gap-2">
-								<button class="btn btn-outline-dark" type="button">
+								<button class="btn btn-dark" type="button">
 									Sign Up
 								</button>
 							</div>
@@ -230,14 +230,24 @@
 
 		<section id="cta">
 			<h3>Find the True Love of Your Dog's Life Today.</h3>
-			<button type="button">Download</button>
-			<button type="button">Download</button>
+			<button type="button" class="btn btn-lg btn-dark download-button">
+				<i class="fa-brands fa-apple"></i> Download
+			</button>
+			<button type="button" class="btn btn-lg btn-light download-button">
+				<i class="fa-brands fa-google-play"></i> Download
+			</button>
 		</section>
 
 		<!-- Footer -->
 
 		<footer id="footer">
-			<p>© Copyright TinDog</p>
+			<div class="footer-icons">
+				<i class="fa-brands fa-twitter fa-2x"></i>
+				<i class="fa-brands fa-facebook fa-2x"></i>
+				<i class="fa-brands fa-instagram fa-2x"></i>
+				<i class="fa-solid fa-envelope fa-2x"></i>
+			</div>
+			<p>© Copyright 2022 TinDog</p>
 		</footer>
 	</body>
 </html>

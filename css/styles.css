@@ -18,7 +18,7 @@ h2 {
 	line-height: 1.5;
 }
 .container-fluid {
-	padding: 3% 15%;
+	padding: 3% 5%;
 }
 
 /* Navigation Bar */
@@ -51,21 +51,31 @@ h2 {
 
 #tindog {
 	transform: rotate(25deg);
-	width: 60%;
-	margin-left: 20%;
+    margin: auto auto -12rem 50px;
+	max-width: 22%;
+    margin-left: 5rem;
+    position: absolute;
 }
+/* #tindog {
+    margin: auto auto -12rem 50px;
+    transform: rotate(25deg);
+    width: 60%;
+  } */
 
 /* Features Section */
 
 #features {
 	text-align: center;
 	padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
-.fa-solid {
+.icon {
 	color: #ef8172;
 	padding: 5%;
 }
-.fa-solid:hover {
+.icon:hover {
 	color: #ff4c68;
 }
 #features h3 {
@@ -123,4 +133,46 @@ h2 {
 }
 #footer {
 	text-align: center;
+}
+
+/* Call To Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 900;
+    color: white;
+    padding: 5%;
+}
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.fa-2x {
+    padding: 1%;
+    padding-bottom: 5%;
+}
+
+
+/* Media Query for Mobile Formatting */
+@media (max-width: 1028px) {
+    #tindog {
+        position: static;
+        transform: rotate(0);
+        max-width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
